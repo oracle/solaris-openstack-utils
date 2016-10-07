@@ -5,6 +5,10 @@
 This project contains utilities and tools to configure Openstack on
 Solaris.
 
+## More Info
+
+Review the README.md for each sub-project.
+
 ## License
 
 See LICENSE file.
