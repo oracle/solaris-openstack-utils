@@ -9,6 +9,12 @@ Solaris.
 
 Review the README.md for each sub-project.
 
+## Getting Started
+
+To obtain a copy of this repo, perform the following:
+
+$ git clone https://github.com/oracle/solaris-openstack-utils
+
 ## License
 
 See LICENSE file.
