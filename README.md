@@ -15,6 +15,11 @@ To obtain a copy of this repo, perform the following:
 
 $ git clone https://github.com/oracle/solaris-openstack-utils
 
+## Releases
+
+Release bundles can be downloaded at following link:
+[RELEASES] (https://github.com/oracle/solaris-openstack-utils/releases/tag/1.26)
+
 ## License
 
 See LICENSE file.
