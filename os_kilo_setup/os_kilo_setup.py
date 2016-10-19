@@ -705,7 +705,10 @@ def glance_add_images():
 
     for image in images:
         name = os.path.splitext(image)[0]
-        glance_add_image(GLANCE_IMAGE_SOURCE_DIR + "/" + image, name)
+        ext = os.path.splitext(image)[1]
+        # only add unified archives
+        if ext.lower() == ".uar":
+            glance_add_image(GLANCE_IMAGE_SOURCE_DIR + "/" + image, name)
 
 
 # Fill in necessary information for -paste.ini to talk
