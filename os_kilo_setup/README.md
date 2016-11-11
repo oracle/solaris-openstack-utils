@@ -52,7 +52,7 @@ $ pkg install openstack
    networking
 
 ```
-$ vi os_kilo_setup.sh
+$ vi os_kilo_setup.py
 ```
 
 ## Single Node
@@ -60,7 +60,7 @@ $ vi os_kilo_setup.sh
 4. Bring-up single node of Openstack
 
 ```
-$ ./os_kilo_setup.sh singlenode
+$ ./os_kilo_setup.py singlenode
 ```
 
 5. When complete you can start using Openstack via the CLI or WebGUI.  There
@@ -134,7 +134,7 @@ CONTROLLER_NODE = ctl.example-net1.com
 COMPUTE_NODE = comp0.example-net1.com
 
 ```
-$ ./os_kilo_setup.sh controller
+$ ./os_kilo_setup.py controller
 ```
 
 5. Prepare a bundle for next node
