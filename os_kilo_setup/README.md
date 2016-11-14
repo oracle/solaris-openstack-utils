@@ -244,7 +244,7 @@ $ ./bundle_compctl.sh
 
 Follow the steps and copy necessary files.
 
-- [ ] Two nodes should be configured.  See step 2 for tests.
+- [ ] Two nodes should be configured.  See above steps for tests.
 
 - [ ] To use commands env files can be sourced. For example:
 
