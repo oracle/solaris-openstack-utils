@@ -42,7 +42,7 @@ when choosing an appropiate image for heat.
 Place the images in the ./os_kilo_setup/images directory, the script will automatically
 add them to Glance image store during bring-up.
 
-- [ ] DInstall packages
+- [ ] Install packages
 
 ```
 $ pkg install openstack
