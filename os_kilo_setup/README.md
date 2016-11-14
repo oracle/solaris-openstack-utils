@@ -116,13 +116,10 @@ $ ./vmcreatew-noip.sh s1
 
 A ssh login shell to the VM is established after VM is created.
 
-```
-$ cd ./tests
-```
-
 # For Kernel Zones
 
 ```
+$ cd ./tests
 $ ./hstacktest.sh hs1
 ```
 
