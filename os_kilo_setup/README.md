@@ -114,7 +114,7 @@ $ cd ./tests
 $ ./vmcreatew-noip.sh s1
 ```
 
-# A ssh login shell to the VM is established after VM is created.
+A ssh login shell to the VM is established after VM is created.
 
 ```
 $ cd ./tests
@@ -132,9 +132,9 @@ $ ./hstacktest.sh hs1
 $ ./hstacktest-ngz.sh hs1
 ```
 
-# The test will validate user_data script is invoked and log in via ssh
+The test will validate user_data script is invoked and log in via ssh
 
-Log into Horizon WebGUI dashboard.
+# Log into Horizon WebGUI dashboard.
 
 For the values in this default script go to following URLs depending on if
 USE_SSL is specified in the script.
@@ -145,7 +145,7 @@ Password: adminpw
 Username: $TENANT_NET_LIST_username
 Password: $ADMIN_PASSWORD
 
-- [ ] To use commands env files can be sourced. For example:
+- [ ] To use commands environment files can be sourced. For example:
 
 ```
 $ source ./env/admin_proj_0000.env
