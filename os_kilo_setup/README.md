@@ -199,13 +199,13 @@ $ ./os_kilo_setup.py controller
 $ ./bundle_ctl.sh
 ```
 
-# Copy to compute node
+- [ ] Copy to compute node
 
 ```
 $ scp bundle.tgz user@comp0.example.com:~
 ```
 
-# Log into compute node and unpack bundle
+- [ ] Log into compute node and unpack bundle
 
 Make sure NTP is correctly configured.
 
@@ -242,7 +242,7 @@ $ ./os_kilo_setup.py compute
 $ ./bundle_compctl.sh
 ```
 
-# Follow the steps and copy necessary files.
+Follow the steps and copy necessary files.
 
 - [ ] Two nodes should be configured.  See step 2 for tests.
 
