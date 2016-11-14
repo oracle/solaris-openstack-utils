@@ -167,10 +167,11 @@ $ pkg install openstack
 ```
 
 Modify os_kilo_python.py and change following parameters:
+```
 SINGLE_NODE = False
 CONTROLLER_NODE = ctl.example-net1.com
 COMPUTE_NODE = comp0.example-net1.com
-
+```
 Make sure NTP is correctly configured.
 
 ```
