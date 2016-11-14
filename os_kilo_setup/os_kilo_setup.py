@@ -1801,9 +1801,17 @@ def neutron():
     check_call(["/usr/sbin/svcadm", "enable", "-rs", "rad:remote"])
 
     print "enabling neutron services"
-    check_call(["/usr/sbin/svcadm", "enable", "-rs", "neutron-server",
-                "neutron-dhcp-agent", "neutron-metadata-agent"])
+#    check_call(["/usr/sbin/svcadm", "enable", "-rs", "neutron-server",
+#                "neutron-dhcp-agent", "neutron-metadata-agent"])
 
+    # Separate for timing purposes
+    check_call(["/usr/sbin/svcadm", "enable", "-rs", "neutron-server"])
+    # OIB v
+    time.sleep(2)
+    check_call(["/usr/sbin/svcadm", "enable", "-rs", "neutron-dhcp-agent"])
+    # OIB v
+    time.sleep(2)
+    check_call(["/usr/sbin/svcadm", "enable", "-rs", "neutron-metadata-agent"])
     # OIB v
     time.sleep(2)
 
